@@ -1,5 +1,7 @@
 # Kairos-loan recruitement test for fullstack blockchain engineer
 
+Fork this repo and implement following instructions. Send your repo link when you are finished.
+
 Show your knowledge of best practices along the way. 
 
 Make an api in typescript. It has an endpoint `/nft-sig` that accepts http POST requests. (return 400 on user errors, 500 en internal server errors, 200 if works ok)  
