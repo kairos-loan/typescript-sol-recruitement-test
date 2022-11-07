@@ -15,4 +15,4 @@ Implement some tests demonstrating nominal functionnality of the smart contract 
 
 Bonus : implement an end-to-end test testing all 3 components (api, front and contract) together at once
 
-Don't worry if you don't know how to code this test right away, we are testing your ability to seach and find solutions by yourself. If you are stuck or  if something is unclear don't hesitate to reach out.
+Don't worry if you don't know how to code this test right away, we are testing your ability to seach and find solutions by yourself. If you are stuck or  if something is unclear don't hesitate to reach out to [the cto](mailto:nicolas@kairos.loan)
