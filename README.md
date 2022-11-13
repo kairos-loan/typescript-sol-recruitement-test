@@ -13,7 +13,7 @@ Make a react (typescript) + wagmi sh + [rainbowkit](https://www.rainbowkit.com/)
 
 When the `/nft-sig` endpoint of the api is called, it calls the contract's `storeNFT()` method using the provided private key for sending the tx and for eip-712 signing.
 
-This next part's instructions are less precise on purpose. Implement another api endpoint used by signers to trustlessly signal their will to store multiple nfts, without settling it on chain straight away. This endpoint must use the private key of the signer only once when called. Implement a way for anyone later in time to settle the storage of an arbitrary subset of the initial set of nfts (passed as argument to the api) at once in the contract through the frontend.
+This next part's instructions are less precise on purpose. Implement another api endpoint used by signers to trustlessly signal their will to store multiple nfts, without settling it on chain straight away. This endpoint must use the private key of the signer only once when called. Implement a way for anyone later in time to settle the storage of an arbitrary subset of the initial set of nfts (passed as argument to the api) at once in the contract through the frontend. You will need to implement a new method `storeNFTs(<some params>)` in the contract.
 
 Implement some tests demonstrating nominal functionnality of the smart contract and the api, separately
 
