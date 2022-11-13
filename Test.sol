@@ -2,7 +2,7 @@
 pragma solidity 0.8.17;
 
 struct NFT {
-    EIP721 contract; // missing import on purpose
+    IERC721 contract; // missing import on purpose
     uint256 tokenId;
 }
 
