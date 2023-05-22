@@ -16,6 +16,6 @@ The NFT holder can use the front to see all the NFTs in her wallet, see the ones
 
 Ideally, have an e2e test demonstarting it works in nominal conditions.
 
-Don't worry if you choke on any part of this test (conception or implementation), but don't stay stuck, [reach out](https://t.me/t0bou) and we will unblock you, or implement what you can and cicrumvent the part you can't.
+Don't worry if you choke on any part of this test (conception or implementation), but don't stay stuck, [reach out](https://t.me/t0bou) and we will unblock you, or implement what you can and circumvent the part you can't.
 
 The overall quality of security, code clarity, UI/UX etc. matters to us.
