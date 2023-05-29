@@ -1,0 +1,27 @@
+.main {
+  gap: 3rem;
+  padding: 2rem;
+  min-height: 100vh;
+  font-weight: 300;
+
+  h1 {
+    text-align: left;
+    font-size: 2rem;
+  }
+  h2 {
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  .nftContainer {
+    padding: 32px;
+    h2 {
+      margin-bottom: 2rem;
+    }
+
+    .nftCollection {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  }
+}

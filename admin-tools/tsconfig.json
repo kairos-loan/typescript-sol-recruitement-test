@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "allowJs": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
+  },
+  "filesGlob": [ ],
+  "files": [
+    "src/app.ts"
+  ]
+}

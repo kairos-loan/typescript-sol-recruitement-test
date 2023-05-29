@@ -1,0 +1,45 @@
+.container {
+  background: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .appName {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+
+    @media (max-width: 600px) {
+      margin-right: 0;
+    }
+  }
+
+  .pageSelect {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    @media (max-width: 600px) {
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .pageButton {
+      font-size: 1.2rem;
+
+      @media (max-width: 600px) {
+        font-size: 1rem;
+      }
+    }
+  }
+}
