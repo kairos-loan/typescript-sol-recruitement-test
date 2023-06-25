@@ -10,9 +10,11 @@ Ideally, have the api and contract deployed and live.
 Imposed stack: next.js, foundry, rainbowkit, viem.sh.
 
 This is an NFT staking app. The smart contract makes everything trustless.
-An admin provides one list of NFTs eligible for staking (can be from multiple collections). The admin does not make an onchain transaction to provide the list, leverage the API to provide it, and cryptographic techniques so the contract assesses that only the admin has control on the list. This list can be changed without onchain transaction.
+An admin provides one list of NFTs eligible for staking (can be from multiple collections, e.g [cryptopunk #1, cryptopunk #12, #bored ape #3]). The admin does not make an onchain transaction to provide the list, leverage the API to provide it, and cryptographic techniques so the contract assesses that only the admin has control on the list. This list can be changed without onchain transaction.
+For obvious reasons, no private key should be sent on internet.
 
-The NFT holder can use the front to see all the NFTs in her wallet, see the ones that are eligible to be staked, select one or multiple of them, and stake them. In another page, the user can see the NFTs she staked, how long they have been in the contract, and can unstake them.
+The NFT holder can use the front to see all the NFTs in her wallet, see the ones that are eligible to be staked, select one or multiple of them, and stake them (I.e the contract helds the NFTs in custody, no extra step required). In another page, the user can see the NFTs she staked, how long they have been in the contract, and can unstake them.
+You can deploy mock token contracts and use any EVM network you want.
 
 Ideally, have an e2e test demonstarting it works in nominal conditions.
 
